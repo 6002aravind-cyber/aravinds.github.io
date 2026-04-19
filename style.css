@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #0f172a; /* Dark Blue-Grey background */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* Image Styling */
+img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+}
+
+/* Heading Colors */
+h1, h2, h3 {
+    color: #38bdf8; /* Bright Blue */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e293b;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #334155;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Link Styling */
+a {
+    color: #fbbf24; /* Gold/Amber links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List Styling */
+ul, ol {
+    background: #1e293b;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
